@@ -6,7 +6,7 @@
 
 ## Current Status
 - Initial static prototype follows the reference site’s station hero, daily fortune card, chapter list, and archive order, with a small playable platform game.
-- No external deployment or third-party assets are used.
+- Published as a public GitHub Pages site at `https://yvette-wanan.github.io/jackson-quotes/` from the personal repository `yvette-wanan/jackson-quotes`.
 
 ## Decisions
 ### 2026-09-13 — Interaction structure
@@ -22,6 +22,7 @@
 - Execution impact: The user-provided assets are local in `assets/`; simulated content remains replaceable in `app.js`.
 
 ## Change Log
+- 2026-09-14: Created and published the standalone public personal repository `yvette-wanan/jackson-quotes`. GitHub Pages is built from its `main` branch; no company repository or workspace was modified.
 - 2026-09-14: Increased the desktop station walker display height to 150px; mobile uses 96px to preserve the hero layout.
 - 2026-09-14: Converted the user-supplied walking-video background to a compact transparent WebM walker and placed it at the station screen's lower right. The keying tolerance was tightened to preserve gray clothing and legs; the display was enlarged to button-adjacent scale. It loops outside game mode and hides while the game is active.
 - 2026-09-14: Removed unstable chapter-based quote numbers; every library entry now uses the neutral `杰语 ·` prefix.
