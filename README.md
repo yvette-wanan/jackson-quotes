@@ -22,6 +22,7 @@
 - Execution impact: The user-provided assets are local in `assets/`; simulated content remains replaceable in `app.js`.
 
 ## Change Log
+- 2026-09-14: Added the left-aligned `每日一杰` section heading to match `杰神论` and `杰神推荐`; replaced the fortune-card portrait with a 597 × 800 transparent cutout so its source background never appears as a rectangle.
 - 2026-09-14: Optimized public first-load assets without changing the visual treatment: replaced the oversized PNGs used by the watermark, station background, and Jackson portrait with display-sized JPEGs; reduced the looping transparent walker from 1.6 MB to 347 KB; deferred the game sprite request until game entry. The active initial asset payload is now about 1 MB rather than about 15.5 MB.
 - 2026-09-14: Created and published the standalone public personal repository `yvette-wanan/jackson-quotes`. GitHub Pages is built from its `main` branch; no company repository or workspace was modified.
 - 2026-09-14: Increased the desktop station walker display height to 150px; mobile uses 96px to preserve the hero layout.
