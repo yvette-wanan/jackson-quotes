@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>杰神语录 · THE BOOK OF JACKSON</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+<b>■ 杰神语录</b>
+<span>
+<a href="#book">杰神论</a>
+<a href="#archive">语录存档</a>
+<a href="#fortune">每日一杰</a>
+</span>
+</nav>
+<main>
+<section class="station" id="top">
+<div class="bar">JACKSON STATION · 杰神语录 <i>■</i>
+</div>
+<div class="stage">
+<div class="office">
+<b>J</b>
+<small>JACKSON STUDIO</small>
+</div>
+<div class="scan">
+</div>
+<video class="walker-video" aria-hidden="true" autoplay muted loop playsinline>
+<source src="assets/jackson-walker-alpha.webm" type="video/webm">
+</video>
+<div class="title">
+<h1>杰神语录</h1>
+<p>THE BOOK OF JACKSON　·　为杰神而生的网站</p>
+</div>
+<img class="idle" src="assets/jackson-idle.png">
+<a class="start-button" id="start" href="#fortune">▶ PRESS START　·　每日一杰</a>
+</div>
+<div class="bottom">
+<span>JACKSON·OS 1.0</span>
+<button id="theme">☀</button>
+<button id="play">▶ sayless · 杰神闯关</button>
+</div>
+</section>
+<section class="fortune" id="fortune">
+<p>“杰神将保佑你获得 AI 的真谛，找到想要 all-in 的方向并持续努力；再不济，还可以去一个纯粹的地方 🙏”</p>
+<article>
+<img src="assets/jackson-idle.png">
+<div>
+<b id="no">今日杰签 · 第 · 签</b>
+<blockquote id="quote">「点击下方按钮，聆听杰神今日指示。」</blockquote>
+<small id="note">—— 杰神论</small>
+</div>
+</article>
+<button id="draw">再抽一签</button>
+<button id="copy">▣ 复制杰签</button>
+</section>
+<section class="book" id="book">
+<h2>杰神论</h2>
+<div id="quick">
+</div>
+<div id="chapters">
+</div>
+</section>
+<section class="archive" id="archive">
+<h2>杰神推荐</h2>
+<p>杰神推荐的精神养料</p>
+<div class="recommendations" id="recommendations">
+</div>
+</section>
+</main>
+<footer>JACKSON STATION · THE BOOK OF JACKSON · 持续收录中</footer>
+<button class="float" id="top">
+<img src="assets/mario-player.png">
+</button>
+<div class="modal" id="modal">
+<div>
+<button class="x" id="close">×</button>
+<header>JACKSON·OS 1.0 <b>SAYMORE <i id="score">00</i>
+</b>
+</header>
+<h3>杰神金币关 · by sayless</h3>
+<p>方向键 / WASD 移动，空格跳跃。顶金币，避开巡逻障碍。</p>
+<canvas id="game" width="960" height="540">
+</canvas>
+<em id="msg">按任意方向键开始<br>
+</em>
+<aside>
+<button data-k="ArrowLeft">←</button>
+<button data-k="ArrowRight">→</button>
+<button data-k=" ">跳</button>
+<button id="reset">重新开始</button>
+</aside>
+</div>
+</div>
+<script src="app.js">
+</script>
+</body>
+</html>
