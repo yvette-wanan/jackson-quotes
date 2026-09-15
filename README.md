@@ -22,6 +22,7 @@
 - Execution impact: The user-provided assets are local in `assets/`; simulated content remains replaceable in `app.js`.
 
 ## Change Log
+- 2026-09-15: Added four supplied quotes to the speaking/resolve, AI/work, and Mian/classroom collections; all remain available to both the archive and random draw.
 - 2026-09-14: Updated the user-curated quote library across speaking, AI/work, classroom, and food/place collections; consolidated several overlapping entries and added the newly supplied lines.
 - 2026-09-14: Regenerated the optimized walking video directly from the original source after the first re-encode lost its alpha channel. The current asset retains transparent pixels and is 1.1 MB, instead of serving the 5.5 MB source video.
 - 2026-09-14: Added the left-aligned `每日一杰` section heading to match `杰神论` and `杰神推荐`.
